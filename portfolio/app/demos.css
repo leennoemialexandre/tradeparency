@@ -349,3 +349,4 @@
   .home-timer { animation: tick 6s linear infinite; }
 }
 @keyframes tick { 0% { transform: scaleX(1); background: var(--butter); } 65% { background: var(--butter); } 66%, 100% { background: var(--coral); } 100% { transform: scaleX(0.05); } }
+.annot .decisions { margin-top: 10px; }
