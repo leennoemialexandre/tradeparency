@@ -10,15 +10,14 @@ Note: if this repository is public on GitHub, this file is visible there. Move i
 | Résumé PDF | `/resume` download button | No file supplied. The page shows an HTML résumé; the download button stays hidden until `site.resumePdf` in `content/site.ts` points to a file in `/public`. |
 | Headshot or personal photo (optional) | About page | None supplied. I didn't crop the team slide photo without your OK. |
 | Production domain | Social previews, sitemap | Set `NEXT_PUBLIC_SITE_URL` in Vercel once known. |
-| Concentration 64 live URL | Project page link | The game's GitHub Pages URL couldn't be reached from this environment, so only the source repo is linked. The game itself is ported into the page. |
-| Jobaholic live URL | Project page link | Previous portfolio linked `leennoemialexandre.github.io/jobaholic`; the draft says Vercel. Neither could be verified, so it's not linked. |
-| Loopify live URL | Project page link | `leennoemialexandre.github.io/loopify` from the old site; not reachable from here, so not linked. |
 | Loopify interface screenshot | Loopify page | Not supplied. The page uses a simulation of its loop logic plus a real code excerpt. |
 | Original micro:bit pillbox photo | TAFIA story | Not supplied. |
 | Entry-Preneur blog example or archive | Entry-Preneur page | Not supplied. |
 | Paramount memo or deck excerpt | Paramount page | Not supplied. |
 
 ## Links to confirm
+
+- Live project URLs (TAFIA on Lovable, Concentration 64 and Loopify on GitHub Pages, Jobaholic on Vercel) were supplied by you and are linked. This environment's network policy blocked them, so I couldn't load them myself. Worth a click-through before sharing. The Jobaholic Vercel URL also settles the old site's github.io link.
 
 - Email `leenalexia@outlook.com`, LinkedIn `linkedin.com/in/leennoemialexandre`, and GitHub `github.com/leennoemialexandre` were taken from your previous portfolio. The GitHub repos were confirmed by cloning them; email and LinkedIn couldn't be checked from here.
 
@@ -45,7 +44,7 @@ Note: if this repository is public on GitHub, this file is visible there. Move i
 - Origin story: what prompted the build.
 - One concrete feedback → change → result example.
 - Supabase row-level security policies (not in the repo).
-- Whether the app is still live, and active user count. The old site said ~20 users; that isn't published.
+- Active user count. The old site said ~20 users; that isn't published.
 
 ### Pinterest
 - The 3% commission rationale and who pays it.

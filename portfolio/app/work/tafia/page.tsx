@@ -3,6 +3,7 @@ import { ProjectShell } from "@/components/ProjectShell";
 import { DecisionNotes } from "@/components/DecisionNotes";
 import { TafiaWalkthrough } from "@/components/demos/TafiaWalkthrough";
 import { getProject } from "@/content/projects";
+import { liveLinks } from "@/content/site";
 import { tafiaDecisions, tafiaStory } from "@/content/stories/tafia";
 
 const meta = getProject("tafia");
@@ -29,6 +30,7 @@ export default function TafiaPage() {
           prototype that puts medication prompts inside simple games, with a caregiver dashboard on the other side. I was co-founder and Product Lead.
         </p>
       }
+      links={[{ href: liveLinks.tafia, label: "Open the original Lovable prototype", external: true }]}
       facts={[
         { term: "My role", detail: "Co-founder & Product Lead" },
         { term: "Team", detail: "Four people, three sprints" },

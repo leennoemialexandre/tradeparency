@@ -3,7 +3,7 @@ import { ProjectShell } from "@/components/ProjectShell";
 import { DecisionNotes } from "@/components/DecisionNotes";
 import { JobaholicSandbox } from "@/components/demos/JobaholicSandbox";
 import { getProject } from "@/content/projects";
-import { site } from "@/content/site";
+import { liveLinks, site } from "@/content/site";
 import { jobaholicDecisions, jobaholicStory } from "@/content/stories/jobaholic";
 
 const meta = getProject("jobaholic");
@@ -30,7 +30,10 @@ export default function JobaholicPage() {
           you&rsquo;ve clicked Apply. I designed, built, and deployed it on my own.
         </p>
       }
-      links={[{ href: `${site.github}/jobaholic`, label: "Source on GitHub", external: true }]}
+      links={[
+        { href: liveLinks.jobaholic, label: "Live app (needs an account)", external: true },
+        { href: `${site.github}/jobaholic`, label: "Source on GitHub", external: true },
+      ]}
       facts={[
         { term: "My role", detail: "Independent creator: features, UX, AI-assisted build, deployment" },
         { term: "Stack", detail: "Next.js, React, Supabase (Postgres, Auth, Storage), Vercel" },

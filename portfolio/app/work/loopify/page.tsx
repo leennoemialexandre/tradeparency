@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { ProjectShell } from "@/components/ProjectShell";
 import { LoopifyLogic } from "@/components/demos/SmallDemos";
 import { getProject } from "@/content/projects";
-import { site } from "@/content/site";
+import { liveLinks, site } from "@/content/site";
 import { loopifyStory } from "@/content/stories/supporting";
 
 const meta = getProject("loopify");
@@ -28,7 +28,10 @@ export default function LoopifyPage() {
           and what it doesn&rsquo;t.
         </p>
       }
-      links={[{ href: `${site.github}/loopify`, label: "Source on GitHub", external: true }]}
+      links={[
+        { href: liveLinks.loopify, label: "Try Loopify live", external: true },
+        { href: `${site.github}/loopify`, label: "Source on GitHub", external: true },
+      ]}
       facts={[
         { term: "My role", detail: "Independent: problem, design, loop logic, deployment" },
         { term: "Built with", detail: "YouTube IFrame API · HTML, CSS, JS" },

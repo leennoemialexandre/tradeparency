@@ -175,7 +175,7 @@ export function LoopifyLogic() {
         <div className="notice" role="note">
           <span className="notice-icon" aria-hidden="true">i</span>
           <span>
-            <strong>A simulation of Loopify&rsquo;s rules, not the live tool.</strong> No video loads here. Each button triggers the same branch the real code takes.
+            <strong>A simulation of Loopify&rsquo;s rules, not the live tool.</strong> No video loads here. Each button triggers the same branch the real code takes. The real thing is linked at the top of this page.
           </span>
         </div>
         <div className="seg" role="group" aria-label="What you loaded" style={{ marginBottom: 14 }}>

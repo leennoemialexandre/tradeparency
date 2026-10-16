@@ -3,7 +3,7 @@ import { ProjectShell } from "@/components/ProjectShell";
 import { DecisionNotes } from "@/components/DecisionNotes";
 import { Concentration64 } from "@/components/demos/Concentration64";
 import { getProject } from "@/content/projects";
-import { site } from "@/content/site";
+import { liveLinks, site } from "@/content/site";
 import { c64Decisions, c64Story } from "@/content/stories/concentration-64";
 
 const meta = getProject("concentration-64");
@@ -38,7 +38,10 @@ export default function Concentration64Page() {
           and the students who played it reshaped almost every rule.
         </p>
       }
-      links={[{ href: `${site.github}/minigamelibrary`, label: "Source on GitHub", external: true }]}
+      links={[
+        { href: liveLinks.concentration64, label: "Play the original version", external: true },
+        { href: `${site.github}/minigamelibrary`, label: "Source on GitHub", external: true },
+      ]}
       facts={[
         { term: "My role", detail: "Independent creator, built with Claude Code" },
         { term: "Players", detail: "25+ students" },
@@ -54,7 +57,7 @@ export default function Concentration64Page() {
             <div>
               <Concentration64 />
               <p style={{ fontSize: "0.88rem", color: "var(--ink-soft)", marginTop: 12 }}>
-                One small addition for this page: the game stops if you switch tabs, so the timer never runs out behind your back. Nothing is saved.
+                Prefer the untouched original? It&rsquo;s linked at the top of the page. One small addition here: the game stops if you switch tabs, so the timer never runs out behind your back. Nothing is saved.
               </p>
             </div>
             <ul className="annot-list" aria-label="Decisions behind the game">

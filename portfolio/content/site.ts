@@ -19,6 +19,14 @@ export const site = {
   url: process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000",
 };
 
+// Live versions of the projects, as supplied by Leen-Noemi.
+export const liveLinks = {
+  tafia: "https://tafiaonline.lovable.app/",
+  concentration64: "https://leennoemialexandre.github.io/minigamelibrary/games/concentration-64/index.html",
+  jobaholic: "https://jobaholic.vercel.app/",
+  loopify: "https://leennoemialexandre.github.io/loopify/",
+};
+
 export const nav = [
   { href: "/work", label: "All Work" },
   { href: "/about", label: "About" },

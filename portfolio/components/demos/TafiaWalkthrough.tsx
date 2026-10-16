@@ -128,7 +128,7 @@ export function TafiaWalkthrough() {
         <span className="notice-icon" aria-hidden="true">i</span>
         <span>
           <strong>Illustrative walkthrough.</strong> I rebuilt this loop from the prototype screenshots so you can feel the flow. It isn&rsquo;t the original
-          system or a medical tool: there&rsquo;s no account, nothing is saved, and the medication is a placeholder.
+          system or a medical tool: there&rsquo;s no account, nothing is saved, and the medication is a placeholder. The original prototype is linked at the top of the page.
         </span>
       </div>
 
