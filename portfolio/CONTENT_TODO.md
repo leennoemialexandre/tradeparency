@@ -19,7 +19,7 @@ Note: if this repository is public on GitHub, this file is visible there. Move i
 
 - Live project URLs (TAFIA on Lovable, Concentration 64 and Loopify on GitHub Pages, Jobaholic on Vercel) were supplied by you and are linked. This environment's network policy blocked them, so I couldn't load them myself. Worth a click-through before sharing. The Jobaholic Vercel URL also settles the old site's github.io link.
 
-- Email `leenalexia@outlook.com`, LinkedIn `linkedin.com/in/leennoemialexandre`, and GitHub `github.com/leennoemialexandre` were taken from your previous portfolio. The GitHub repos were confirmed by cloning them; email and LinkedIn couldn't be checked from here.
+- Email `leenalexia@outlook.com` and LinkedIn `linkedin.com/in/leennoemialexandre/` confirmed by you. GitHub `github.com/leennoemialexandre` confirmed by cloning its repos.
 
 ## Facts to confirm or recover
 

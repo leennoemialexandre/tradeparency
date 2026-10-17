@@ -1,5 +1,5 @@
 // Personal details and verified links. Edit here; every page reads from this file.
-// Links are taken from Leen-Noemi's previously published portfolio. See CONTENT_TODO.md
+// Email and LinkedIn confirmed by Leen-Noemi; GitHub verified. See CONTENT_TODO.md
 // for the ones still awaiting confirmation.
 
 export const site = {
@@ -11,7 +11,7 @@ export const site = {
   location: "West Orange, NJ · open to relocating",
   education: "B.S. Business, Technology & Entrepreneurship, NYU Stern (STEM-certified), May 2026",
   email: "leenalexia@outlook.com",
-  linkedin: "https://www.linkedin.com/in/leennoemialexandre",
+  linkedin: "https://www.linkedin.com/in/leennoemialexandre/",
   github: "https://github.com/leennoemialexandre",
   // Set to a path under /public (e.g. "/docs/resume.pdf") once a résumé PDF is supplied.
   resumePdf: null as string | null,
