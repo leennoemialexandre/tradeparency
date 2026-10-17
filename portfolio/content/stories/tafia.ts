@@ -15,7 +15,7 @@ export const tafiaDecisions: Decision[] = [
       { term: "Options", detail: "Keep a medication-only experience, or add lightweight activities and companion interaction." },
       { term: "Evidence", detail: "Early departures from the prototype and interview feedback about boredom." },
       { term: "Tradeoff", detail: "More engagement features added scope without solving reminder delivery outside the website." },
-      { term: "What followed", detail: "Seniors stayed in the prototype longer than in the medication-only version. That supports the direction, not better adherence." },
+      { term: "What followed", detail: "A simple session timer we added in Lovable showed time in the app about 25% higher with games and the chatbot than in the medication-only version. That supports the direction, not better adherence." },
     ],
     more: { href: "#engagement", label: "Read the full decision" },
   },
@@ -178,10 +178,12 @@ export const tafiaStory: Story = {
             ["Constraint", "Reminders only appeared with the website open; development time was limited"],
             ["Choice", "Add simple games and predefined chatbot interaction"],
             ["Tradeoff", "More engagement features increased scope without solving background reminder delivery"],
-            ["What followed", "Seniors spent more time in the prototype than in the medication-only version"],
+            ["What followed", "Time in the app was about 25% higher than in the medication-only version, by our in-app session timer"],
           ],
         },
-        { type: "p", text: "That observation supports the direction of the change. It does not separate the effect of games from the chatbot, establish long-term retention, or demonstrate improved adherence." },
+        { type: "h3", text: "How we measured it" },
+        { type: "p", text: "To check whether the change worked, we added a simple session timer in Lovable. It logged how long someone stayed in the app before leaving, so we could compare the medication-only version with the version that added games and the chatbot. Time in the app came out about **25% higher** with games and the chatbot." },
+        { type: "callout", tone: "limit", title: "What the 25% does and doesn't show", text: "It compares two versions of a prototype with a basic timer, not a controlled experiment. It measures time in the app, not medication taken. It doesn't separate the effect of the games from the chatbot or show long-term retention. Its value is that it told us the engagement change was pulling in the right direction." },
       ],
     },
     {
@@ -291,7 +293,7 @@ export const tafiaStory: Story = {
           rows: [
             ["Interviews", "What do seniors and caregivers need?", "50+ interviews; simplicity, engagement, visibility, and trust emerged", "Interview counts aren't the same as unique participants"],
             ["Manual reminder test", "How do people experience personally delivered reminders?", "About 20 seniors; positive feedback on the human interaction, plus some caregiver reports", "No controlled comparison or verified adherence effect"],
-            ["Prototype iteration", "Do games and companion interaction support longer sessions?", "Seniors stayed longer after we added them", "Doesn't isolate games from chatbot, or show retention"],
+            ["Prototype iteration", "Do games and companion interaction support longer sessions?", "About 25% more time in the app, by our in-app session timer", "Two prototype versions and a basic timer, not a controlled test; doesn't isolate games from chatbot"],
             ["Marketing test", "Which value propositions attract initial interest?", "Game-focused messaging drew the stronger early interest", "An early interest signal, not retention or product-market fit"],
           ],
         },
@@ -303,7 +305,7 @@ export const tafiaStory: Story = {
       kicker: "12 · Outcome",
       title: "What the prototype achieved, and what remained unresolved",
       blocks: [
-        { type: "p", text: "By the December 2025 presentation, TAFIA was a functional website prototype with medication tracking, in-session reminders, games, a limited chatbot, and a working but unfinished caregiver dashboard. After we moved beyond medication-only interaction, seniors stayed in the prototype longer." },
+        { type: "p", text: "By the December 2025 presentation, TAFIA was a functional website prototype with medication tracking, in-session reminders, games, a limited chatbot, and a working but unfinished caregiver dashboard. After we moved beyond medication-only interaction, time in the app rose by about 25%, measured with a session timer we built into the prototype." },
         { type: "p", text: "More important for the product story, evidence changed our priorities. We moved beyond the original hardware concept, tested reminders manually, and treated engagement as a dependency of the in-site medication experience." },
         { type: "p", text: "TAFIA did not reach a commercial launch. Its important unresolved limitations:" },
         {

@@ -24,7 +24,7 @@ Note: if this repository is public on GitHub, this file is visible there. Move i
 ## Facts to confirm or recover
 
 ### TAFIA
-- **~25% engagement increase:** baseline, comparison, unit, sample, dates, and calculation are missing. The public page says only that seniors stayed longer.
+- **~25% engagement increase:** now published. Source (from you): a session timer added in Lovable that logged time in the app until exit, comparing the medication-only version with the games + chatbot version. Still unknown, and worth having ready for interviews: how many seniors and sessions; whether the 25% is the average or the median; whether the same people used both versions; the raw before/after times; and whether participants knew about the timer. The public wording deliberately says "session timer", not "secret".
 - **Marketing results conflict:** the deck says $100 of Meta ads produced 98 page views and 11 sign-ups (~11% conversion), plus a 49- or 50-second average session and 0% waitlist drop-off. The draft says four creatives and 1,000+ impressions in three days, with ~3% conversion. The public page says only that game-focused messaging drew the stronger early interest.
 - **Team size:** the deck's team slide shows three co-founders; the draft says four people. The public page uses four.
 - **Games:** the deck shows Memory Match; the draft names word searches and puzzles. The `tafiaonline` repo has both, plus others. The walkthrough uses a memory game (labeled illustrative); the story uses the draft's wording.
